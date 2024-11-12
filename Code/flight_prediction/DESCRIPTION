@@ -1,0 +1,11 @@
+Package: flight_prediction
+Type: Shiny
+Title: Flight Prediction
+Version: 1.0
+Date: 2024-11-11
+Author: Jiren Lu
+Maintainer: Jiren Lu <jlu396@wisc.edu>
+Description: For STAT628 Module3
+Depends: R (>= 4.0)
+Imports: shiny, shinyjs
+Encoding: UTF-8
