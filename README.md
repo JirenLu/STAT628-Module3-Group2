@@ -20,3 +20,6 @@ a relatively high early arrival rate and how many times they might arrive early.
 are the most important in the random forest model. It will be interesting to compare feature importance between logistic regression and random forest.
 
 ### Last Step: Predict the flight arrival time or Cancellation
+In this step, we used three ml algorithms (RF, XGBoost, LightGBM) to predict level of delay. The independent variables continued from those used in Task 1, while the dependent variable followed from Task 2. 
+Due to class imbalance, we applied a full resampling technique to balance the dataset, adjusting the sample size of each class to match the size of the smallest class. 
+Evaluation metrics of Accuracy and micro F1-score were utilized to assess model performance. All samples were divided into disjoint training and test samples in a ratio of 4:1.
